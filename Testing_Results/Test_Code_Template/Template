@@ -1,1 +1,66 @@
+import requests
+import pandas as pd
+import os
+import numpy as np
+
+api_key = 'hidden api key'
+url = "hidden originality tool url"
+
+# List of CSV file names
+csv_file_names = [
+    'example_1.csv',
+    'example_2.csv'
+]
+
+downloads_folder = os.path.join(os.path.expanduser('~'), 'Downloads')
+
+# Iterate 
+for file_name in csv_file_names:
+    # Load data from CSV file
+    csv_file_path = os.path.join(downloads_folder, file_name)
+    df = pd.read_csv(csv_file_path)
+
+    # Initialize an empty list to store the API responses
+    api_responses = []
+
+    # Iterate over rows in the DataFrame
+    for index, row in df.iterrows():
+        content = row['Answers']
+        title = row.get('Questions', 'optional title')  # Use 'Questions' as the column name for the title
+        date = row.get('Time', '')  # Use 'Time' as the column name for the date
+
+        # Prepare payload, these are the colume names of my csv files
+        payload = {
+            "content": content,
+            "title": title,
+            "aiModelVersion": "1",
+            "storeScan": "false"
+        }
+
+        headers = {
+            'X-OAI-API-KEY': api_key,
+            'Accept': 'application/json',
+        }
+
+        # Handle NaN and infinite values in the payload
+        payload = {k: (v if not isinstance(v, float) or (np.isfinite(v) and not np.isnan(v)) else None) for k, v in payload.items()}
+
+        # Make the API request
+        response = requests.post(url, headers=headers, json=payload)
+
+        # Append the response to the list
+        api_responses.append(response.json())
+
+    # Create a new column in the DataFrame to store the API responses results
+    df['api_response'] = api_responses
+
+    # Extract relevant information from the API response and store it in a new column
+    df['originality_score'] = df['api_response'].apply(lambda x: x.get('score', {}).get('original', None))
+
+    # Save the DataFrame to a CSV file in the Downloads folder
+    output_file_name = file_name.replace('.csv', '_with_responses.csv')
+    output_file_path = os.path.join(downloads_folder, output_file_name)
+    df.to_csv(output_file_path, index=False)
+
+    print(f"File saved to {output_file_path}")
 
