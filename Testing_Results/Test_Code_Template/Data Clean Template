@@ -1,0 +1,22 @@
+# Modify the script to automatically add the name of the CSV file as the column name for the topic.
+
+import pandas as pd
+import glob
+import os
+
+path = '/path/to/files'
+all_files = glob.glob(path + "/*.csv")
+
+combined_csv = pd.DataFrame()
+
+for f in all_files:
+    df = pd.read_csv(f)
+    # Extract the filename without the extension as the topic
+    topic = os.path.basename(f).split('.')[0]
+    df['Topic'] = topic  # Add the topic column with the filename as the value
+    combined_csv = pd.concat([combined_csv, df])
+
+combined_csv.to_csv("combined_data_with_topics.csv", index=False)
+
+# Save the files 
+combined_csv.to_csv("/users/akumanic/downloads/combined_data_with_topics.csv", index=False)
