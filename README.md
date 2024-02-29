@@ -97,6 +97,14 @@ This image shows the yearly average originality score from 2014 to 2022. With or
 
 3. Similar to the topic of Refunds, the contents are divided into two distinct categories: close to 100% human content and 0% human content.
 
+# 5. Topic Study: Sports Business
+(Interactive Link:
+https://public.tableau.com/app/profile/ao.he/viz/QuoraTopicStudySportsBusinessOriginalityScore/Dashboard1?publish=yes)
+
+There is no clear trend for the topic: Sports Business (top), due to a lack of March 2023 & April 2023 data from this particular topic and uneven distribution of data available each month.
+
+Authors “Fashion Needle” and “Game Zone” have multiple inputs of 0% human content, whereas authors “Steven Haddock” and “Ty Doyle” have multiple inputs of 95% and up human content. This is an indication that commercial accounts that do not use real names as their account usernames are more likely to use AI content.
+
 # Results
 
 1. Is there a rising or falling trend for AI-generated answers on the site during 2018-2023?
