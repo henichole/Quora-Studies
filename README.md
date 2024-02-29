@@ -55,7 +55,7 @@ The results are presented in the following Tableau Public sheets and dashboards.
    These questions are more general, which would be tempting and easier for authors to use AI tools to generate answers. 
 
 # 2. Yearly Average By Topics 2018-2022
-(Interactive Link: https://public.tableau.com/app/profile/ao.he/viz/QuoraOriginalityStudyByTopics/YearlyAverage2014-2020)
+(Interactive Link: https://public.tableau.com/app/profile/ao.he/viz/QuoraOriginalityStudyByTopics/YearlyAverage2018-2022?publish=yes)
 
 This image shows the yearly average originality score from 2014 to 2022. With originality scores of each topic recorded. 
 
