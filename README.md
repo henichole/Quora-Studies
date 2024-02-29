@@ -117,9 +117,7 @@ The top three categories that have the most use of AI-generated answers are:
 “Social Media” -35.37% AI generated 
 “Funding” - 35.19% AI generated
 
-3. Do users prefer to have AI-generated answers? If yes, to what extent?
 
-As of now, this question cannot be answered, due to a lack of consistency in the amount of data content scraped from each topic. 
 
 
 
