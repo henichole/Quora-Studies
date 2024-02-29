@@ -39,7 +39,7 @@ The results are presented in the following Tableau Public sheets and dashboards.
    “Social Media” -35.37% AI generated
    “Funding” - 35.19% AI generated
 
-4. “Sports” has an overall originality average score of 94.46% content, whereas “Sports Business” has an overall score of 46.60% human contents. This is interesting to look at because if you take a look at the answers, the “sports” are mostly opinion based, whereas “Sports Business” is mainly focused on FAQ-type queries that don’t require opinion based answers. Here are some examples: 
+4. “Sports” has an overall originality average score of 94.46% content, whereas “Sports Business” has an overall score of 46.60% human content. This is interesting to look at because if you take a look at the answers, the “sports” are mostly opinion-based, whereas “Sports Business” is mainly focused on FAQ-type queries that don’t require opinion-based answers. Here are some examples: 
 
    What sport has the lowest life expectancy?
    What sport has the lowest life expectancy?
