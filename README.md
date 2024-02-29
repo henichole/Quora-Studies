@@ -19,7 +19,7 @@ A total of approximately 5900 inquiries and responses were extracted from variou
 
 The results are presented in the following Tableau Public sheets and dashboards. Please note that if you click into the interactive link, it would be easier to understand the trend.
 
-# 1. Originality Score Ranking By Topic:
+# 1. Originality Score Ranking By Topic
 (Interactive Link: https://public.tableau.com/app/profile/ao.he/viz/QuoraTopicsOriginalityRanking/TopicRanking)
                   
 1. Score interpretation: a score of 0.3882 shows a 38.82% confidence rate of human-generated content and 61.18% AI-generated, and a score of 0.9446 shows a 94.46% confidence rate of human-generated content and 5.54% AI-generated, according to Originality.AI v2.0.
@@ -75,7 +75,7 @@ This image shows the yearly average originality score from 2014 to 2022. With or
    
 8. “The Internet” appeared twice in 2021 and 2022, respectively, with 79.55% human content in 2021 and 90.16% human content  in 2022, which was also an increase in human-generated content between these two years.
 
-# 3. Topic Study: Refunds (0.3882) Originality Score With Questions:
+# 3. Topic Study: Refunds (0.3882) Originality Score With Questions
 (Interactive Link: https://public.tableau.com/app/profile/ao.he/viz/RefundsOriginalityScoreWithQuestions/Refunds0_3882?publish=yes)
 
 1. Here, we can see that there are some interesting bipolar characteristics: It’s either all or nothing.
@@ -96,6 +96,30 @@ This image shows the yearly average originality score from 2014 to 2022. With or
 2. The top three authors with the highest originality scores are C.S. Friedman, Matthew Bates, and Sean Kernan, there is a trend, the more an author has answered, the higher the human content score. Authors with one input are more likely to have 0% human-generated content, compared to the top authors. These authors are also found active in other topics such as “Essays” on Quora.com with high human content scores.
 
 3. Similar to the topic of Refunds, the contents are divided into two distinct categories: close to 100% human content and 0% human content.
+
+# Results
+
+1. Is there a rising or falling trend for AI-generated answers on the site during 2018-2023?
+
+There is no significant rising or falling trend for AI-generated content on the site from 2018-2023. On the other hand, the AI-generated content score on Quora.com is found to be topic-based, due to a lack of consistency in the amount of data content scraped from each month.
+
+2. Which category has the most use of AI-generated answers?
+
+The top three categories that have the most use of AI-generated answers are: 
+“Refunds” - 61.18% AI generated
+“Essay Writing Help” - 59.61% AI generated
+“Sports Business” - 54.44% AI generated
+“Blogging” - 53.41% AI generated 
+“Photographs” - 49.79% AI generated 
+“Brokers” - 46.04% AI generated 
+“Food” - 43.02% AI generated 
+“Bitcoin” - 40.23% AI generated 
+“Social Media” -35.37% AI generated 
+“Funding” - 35.19% AI generated
+
+3. Do users prefer to have AI-generated answers? If yes, to what extent?
+
+As of now, this question cannot be answered, due to a lack of consistency in the amount of data content scraped from each topic. 
 
 
 
