@@ -17,10 +17,10 @@ Data Interpretation:
 
 A total of approximately 5900 inquiries and responses were extracted from various topic sections on Quora.com, ranging from areas such as health and science, political science and government, literature and writing, journalism and business, finance, technology and stocks, food, design, photography, and cameras. The dates of the inquiries and responses spanned from 2014 to 2024; for the years 2014 to 2022, only the year was documented due to Quora’s privacy regulations and user safeguards (a considerable number of opinions evolve, the historical inputs are accessible only when users permit them to be). 
 
-The results are presented in the following Tableau Public sheets and dashboards. Please note that if you click into the interactive link, it would be easier to understand the trend.
+The results are presented in the following Tableau Public sheets and dashboards. Please note that if you click on the interactive link, it would be easier to understand the trend.
 
 # 1. Originality Score Ranking By Topic
-(Interactive Link: https://public.tableau.com/app/profile/ao.he/viz/QuoraTopicsOriginalityRanking/TopicRanking)
+(Interactive Link: https://public.tableau.com/app/profile/ao.he/viz/QuoraOriginalityStudyByTopics/TopicRanking?publish=yes)
                   
 1. Score interpretation: a score of 0.3882 shows a 38.82% confidence rate of human-generated content and 61.18% AI-generated, and a score of 0.9446 shows a 94.46% confidence rate of human-generated content and 5.54% AI-generated, according to Originality.AI v2.0.
 
